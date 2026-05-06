@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    background-color: #FFFDF2;
+    
+}
+
+body h1{
+    text-align: center;
+    width: 300px;
+    color: #000000;
+    border: solid 3px #00000094;
+    border-radius: 20px;    
+    margin: auto;
+    margin-top: 10px;
+}
+
+body p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: #4c46c5;    
+    border: solid 3px #00000094;
+    border-radius: 10px;    
+}
+
+.Lista{
+    margin: 10px auto;
+    width: fit-content;
+    text-align: center;
+    padding: 10px 30px;
+    padding-right: 10px;
+    border: solid 3px #00000094;
+    border-radius: 10px;
+}
+
+body h2{
+    text-align: center;
+    width: 300px;
+    color: #000000;  
+    margin: 10px auto;
+}
+
+.Tabela{
+    margin: 10px auto;
+    text-align: center;
+    border-collapse: collapse;    
+}
+
+.Tabela td, th{
+    padding: 5px;
+    text-align: justify;
+    border: solid 2px #000000;
+}
