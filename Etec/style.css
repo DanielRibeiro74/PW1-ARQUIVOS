@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+        font-family: Roboto,sans-serif;
+}
+
+.barra-preta{
+    background-color: black;
+    width: 250px;
+    height: 114PX;
+}
+
+.barra-preta img{    
+    height: 74PX;
+    padding: 20px;
+    background-color: black;
+    border-radius: 51px;
+    margin-left: 175px;
+    border-right: 1px solid black;
+    border-radius: 51px;
+}
+
+.logo-etec{
+    border: 1px solid rgba(128, 128, 128, 0.493);
+
+}
+
+.logo-etec img{
+    height: 90px;
+    padding: 40px;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    background-color: #b20000;
+    justify-content: center;
+}
+
+nav a{
+    display: flex;
+    height: 100%px;
+    color: #fff;
+    align-items: center;
+    padding: 1%;
+    font-family: Roboto,sans-serif;
+    cursor: pointer;
+
+}
+
+nav a:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.148);
+}
+
+.imagem-meio img{
+    padding: 50px;
+    width: 90%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.informacoes{
+    font-weight: 300;
+    display: flex;
+    height: 250px;
+    background-color: #004854;
+    background: url(Imagens/bg-footer-ed-azul-base.png) right center no-repeat fixed #004854;;
+}
+
+.informacoes-dentro h6{
+    margin-bottom: 10px;
+}
+
+.informacoes-dentro{
+    flex-direction: row;
+    width: 300px;
+    color: white;
+    margin: 100px 50px;
+    padding-right: 30px;
+}
+
+.informacoes-dentro:not(:last-child){
+    border-right: 1px solid #00687a
+}
+
+.copyright{
+    display: flex;
+    background-color: #005c6d;
+    height: 125px;
+}
+
+.copyright a{
+        color: #00c1cf;
+}
+
+.copyright p{
+    margin-left: 100px;
+    color: #fff;
+    padding: 12px 100px;
+}
+
+.copyright img{
+    margin-top: 10px;
+    height: 110px;
+    width: 110px;
+}
+
+.imagem1{
+    margin-left: 200px;
+}
+.imagem2{
+    margin-left: 10px;
+}
+
+.botões{
+    display: flex;
+    height: 250px;
+    background-color: #fff;
+}
+
+.botões button{
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 40px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif, arial;
+    color: #FFFFFF !important;
+    padding: 4px 35px;
+    border-radius: 20px;
+    background: #243e63;
+}
+
+.rodapé{
+    background-color: black;
+    height: 125px;
+}
+
+.rodapé img{
+    margin-top: 20px;
+    margin-left: 45%;
+}
