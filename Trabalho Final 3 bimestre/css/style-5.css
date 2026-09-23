@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    height: 250px;
+    background-color: #ddd;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 6px;
+}
+
+.features {
+    display: flex;
+    gap: 6px;
+}
+
+.feature {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 6px;
+
+    text-align: center;
+}
+
+.feature h3 {
+    margin: 0;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+.feature p {
+    padding: 0 10px;
+    font-size: 12px;
+}
